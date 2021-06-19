@@ -88,7 +88,7 @@ header .row {
 .navbar ul li a::before {
   content: "";
   height: 2px;
-  background-color: rgb(236, 241, 250);
+  background-color: rgb(255, 255, 255);
   width: 0%;
   position: absolute;
   right: 0px;

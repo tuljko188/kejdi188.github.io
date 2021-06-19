@@ -4,6 +4,10 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
 @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
@@ -47,7 +51,7 @@ a {
     right: 30%;
     position: absolute;
     height: 2px;
-    background-color: #F7F7F9;
+    background-color: #FFFFFF;
     bottom: -2px;
 }
 
@@ -86,8 +90,8 @@ a {
 
 .button a {
   font-size: 14px;
-  color: rgb(236, 241, 250);
-  background-color: transparent;
+  color: rgb(255, 255, 255);
+  background-color: #000000
   border: 1.5px solid rgb(236, 241, 250);
   border-radius: 4px;
   padding: 12px 25px;

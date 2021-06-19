@@ -20,9 +20,9 @@
 .block {
   flex: 0 0 75%;
   max-width: 75%;
-  color: rgb(236, 241, 250);
+  color: rgb(255, 255, 255);
   padding-left: 35px;
-  border-left: 3px solid rgb(236, 241, 250);
+  border-left: 3px solid rgb(255, 255, 255);
   margin-top: 50px;
 }
 .block h1 {
@@ -48,9 +48,9 @@
 }
 .cv-btn a {
   font-size: 14px;
-  color: rgb(236, 241, 250);
+  color: rgb(255, 255, 255);
   background-color: transparent;
-  border: 1px solid rgb(236, 241, 250);
+  border: 1px solid rgb(255, 255, 255);
   border-radius: 4px;
   padding: 12px 25px;
   display: inline-block;

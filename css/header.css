@@ -38,7 +38,7 @@ header .row {
 .brand-name a {
   font-size: 22px;
   font-weight: 500;
-  color: rgb(255, 255, 255);
+  color: rgb(236, 241, 250);
   position: relative;
   font-family: 'Montserrat';
 }
@@ -50,7 +50,7 @@ header .row {
 .hamburger .fa {
   font-size: 20px;
   background-color: rgb(255, 255, 255);
-  color: #ffffff;
+  color: #000
   display: none;
   height: 30px;
   width: 35px;
@@ -88,7 +88,7 @@ header .row {
 .navbar ul li a::before {
   content: "";
   height: 2px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(236, 241, 250);
   width: 0%;
   position: absolute;
   right: 0px;

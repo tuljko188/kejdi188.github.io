@@ -17,6 +17,7 @@ body {
 * {
   box-sizing: border-box;
   margin: 0;
+  
 }
 
 a {
@@ -27,6 +28,7 @@ a {
 .row {
   display: flex;
   flex-wrap: wrap;
+  
 }
 
 .title {
@@ -46,6 +48,26 @@ a {
 }
 
 .title h1::before {
+    content: "";
+    left: 0;
+    right: 30%;
+    position: absolute;
+    height: 2px;
+    background-color: #FFFFFF;
+    bottom: -2px;
+}
+
+.title h2 {
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0px 0px 10px;
+    position: relative;
+}
+
+.title h2::before {
     content: "";
     left: 0;
     right: 30%;

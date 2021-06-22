@@ -30,7 +30,7 @@
 .box::before {
   content: "";
   height: 2px;
-  background-color: #5f88e0;
+  background-color: #000;
   position: absolute;
   bottom: 0px;
   width: 50px;

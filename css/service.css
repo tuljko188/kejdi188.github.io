@@ -23,7 +23,7 @@
   border: 1px solid #eee;
   border-radius: 5px;
   padding: 30px;
-  text-align: center;
+  text-align: justify;
   position: relative;
 }
 
@@ -38,6 +38,7 @@
   right: 0;
   margin: auto;
   transition: all 0.5s ease;
+  
 }
 
 .box:hover::before {
@@ -50,6 +51,7 @@
     background-color: #010206;
     margin: 15px auto 20px;
     border-radius: 50%;
+	text-align: center;
 }
 
 .box .icon .fa {
@@ -69,6 +71,7 @@
   font-weight: 600;
   color: #000;
   margin: 0;
+  text-align: center;
 }
 
 .box p {
